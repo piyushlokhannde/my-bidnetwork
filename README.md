@@ -40,5 +40,5 @@ Following are the stages in the contract lifcycle deployed in blockchain. All th
 ![alt text](images/contract_lifecycle.jpg)
 
 
-
+# Testing and Running the Application
 
