@@ -58,21 +58,21 @@ Move to the root folder my-bidnetwork and execute the following steps.
     
     After the execution of the above statements follwing files are created.
     
-    - channel-artifacts
-      -- channel.tx
-      -- Contractor1MSPanchors.tx
-      -- Contractor2MSPanchors.tx
-      -- genesis.block
-      -- GovMSPanchors.tx
-      -- RegulatorMSPanchors.tx
+     channel-artifacts
+       channel.tx
+       Contractor1MSPanchors.tx
+       Contractor2MSPanchors.tx
+       genesis.block
+       GovMSPanchors.tx
+       RegulatorMSPanchors.tx
       
-    - crypto-config
-      -- ordererOrganizations
-      -- peerOrganizations
-         -- contractor1.example.com
-         -- contractor2.example.com
-         -- gov.example.com
-         -- regulator.example.com
+     crypto-config
+       ordererOrganizations
+       peerOrganizations
+         contractor1.example.com
+         contractor2.example.com
+         gov.example.com
+         regulator.example.com
                                  
 
 
