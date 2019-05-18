@@ -52,6 +52,12 @@ Once the basic network is running, you can run the follwing steps to run the bid
 
 Move to the root folder my-bidnetwork and execute the following steps.
 
-1) 
+1) Generate the crypto material for all the participants using following command.
+
+                                 *./generateartifact.sh*
+                                 
+
+
+
 
 
