@@ -48,6 +48,10 @@ Basic setup is required to run this hyperledger application. The basic setup and
 
 https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html 
 
+Once the basic network is running, you can run the follwing steps to run the bidnetwork.
+
+Move to the root folder my-bidnetwork and execute the following steps.
+
 1) 
 
 
