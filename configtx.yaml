@@ -1,0 +1,192 @@
+Organizations:
+    - &OrdererOrg
+        Name: OrdererOrg
+        ID: OrdererMSP
+        MSPDir: crypto-config/ordererOrganizations/example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Writers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Admins:
+                Type: Signature
+                Rule: "OR('OrdererMSP.admin')"
+
+    - &Gov 
+        Name: GovMSP
+        ID: GovMSP
+        MSPDir: crypto-config/peerOrganizations/gov.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('GovMSP.admin', 'GovMSP.peer', 'GovMSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('GovMSP.admin', 'GovMSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('GovMSP.admin')" 
+        AnchorPeers:
+            - Host: peer0.gov.example.com
+              Port: 7051
+
+    - &Regulator
+        Name: RegulatorMSP
+        ID: RegulatorMSP
+        MSPDir: crypto-config/peerOrganizations/regulator.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('RegulatorMSP.admin', 'RegulatorMSP.peer', 'RegulatorMSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('RegulatorMSP.admin', 'RegulatorMSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('RegulatorMSP.admin')"
+        AnchorPeers:          
+            - Host: peer0.regulator.example.com
+              Port: 8051
+
+    - &Contractor1 
+        Name: Contractor1MSP
+        ID: Contractor1MSP
+        MSPDir: crypto-config/peerOrganizations/contractor1.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('Contractor1MSP.admin', 'Contractor1MSP.peer', 'Contractor1MSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('Contractor1MSP.admin', 'Contractor1MSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('Contractor1MSP.admin')"
+        AnchorPeers:
+            - Host: peer0.contractor1.example.com
+              Port: 9051
+
+    - &Contractor2
+        Name: Contractor2MSP
+        ID: Contractor2MSP
+        MSPDir: crypto-config/peerOrganizations/contractor2.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('Contractor2MSP.admin', 'Contractor2MSP.peer', 'Contractor2MSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('Contractor2MSP.admin', 'Contractor2MSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('Contractor2MSP.admin')"
+        AnchorPeers:           
+            - Host: peer0.contractor2.example.com
+              Port: 10051
+
+Capabilities:
+    Channel: &ChannelCapabilities
+        V1_3: true
+    Orderer: &OrdererCapabilities 
+        V1_1: true   
+    Application: &ApplicationCapabilities 
+        V1_3: true    
+        V1_2: false
+        V1_1: false
+
+
+Application: &ApplicationDefaults
+    Organizations:
+    Policies:
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins"
+
+    Capabilities:
+        <<: *ApplicationCapabilities
+
+
+Orderer: &OrdererDefaults
+
+    OrdererType: solo
+    Addresses:
+        - orderer.example.com:7050   
+    BatchTimeout: 2s   
+    BatchSize:
+        MaxMessageCount: 10
+        AbsoluteMaxBytes: 99 MB
+        PreferredMaxBytes: 512 KB
+    Kafka:       
+        Brokers:
+            - 127.0.0.1:9092
+
+    Organizations:
+    Policies:
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins" 
+        BlockValidation:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+
+
+Channel: &ChannelDefaults
+    Policies:       
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"       
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"        
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins"
+   
+    Capabilities:
+        <<: *ChannelCapabilities
+
+
+Profiles:
+
+    BidOrdererGenesis:
+        <<: *ChannelDefaults
+        Orderer:
+            <<: *OrdererDefaults
+            Organizations:
+                - *OrdererOrg
+            Capabilities:
+                <<: *OrdererCapabilities
+        Consortiums:
+            BidConsortium:
+                Organizations:
+                    - *Gov
+                    - *Regulator
+                    - *Contractor1
+                    - *Contractor2
+    BidChannel:
+        Consortium: BidConsortium
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *Gov
+                - *Regulator
+                - *Contractor1
+                - *Contractor2
+            Capabilities:
+                <<: *ApplicationCapabilities
+
+

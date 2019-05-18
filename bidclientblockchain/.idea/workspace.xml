@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e49d971e-f165-41fb-92ce-01b02a0b145f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bid_client_blockchain$BidNetworkIntegrationTest_create_new_gov_contract.ic" NAME="BidNetworkIntegrationTest.create_new_gov_contract Coverage Results" MODIFIED="1557333029037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bid.client.blockchain.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2042690216">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="java" value="12" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="12" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2050" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2050" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bid.client.blockchain" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="84" column="50" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1695">
+              <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bid/client/blockchain/BidNetworkIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/ProposalResponseException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/simplelogger.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>peer0</find>
+      <find>allocatecc</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../fabric-starter/chaincode/java/chaincode_example02" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/bid/client/blockchain/Participant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bid/client/blockchain/ProposalResponseException.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/simplelogger.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bid/client/blockchain/BidNetworkIntegrationTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="47" />
+    <option name="width" value="1269" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bid.client.blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bidclientblockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558160079055" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bid.client.blockchain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BidNetworkIntegrationTest.create_new_gov_contract">
+    <configuration name="BidNetworkIntegrationTest.allocate_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bid.client.blockchain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bid.client.blockchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bid.client.blockchain" />
+      <option name="MAIN_CLASS_NAME" value="bid.client.blockchain.BidNetworkIntegrationTest" />
+      <option name="METHOD_NAME" value="allocate_contract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidNetworkIntegrationTest.change_state_of_the_contract_close_for_bid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bid.client.blockchain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bid.client.blockchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bid.client.blockchain" />
+      <option name="MAIN_CLASS_NAME" value="bid.client.blockchain.BidNetworkIntegrationTest" />
+      <option name="METHOD_NAME" value="change_state_of_the_contract_close_for_bid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidNetworkIntegrationTest.create_new_gov_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bid.client.blockchain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bid.client.blockchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bid.client.blockchain" />
+      <option name="MAIN_CLASS_NAME" value="bid.client.blockchain.BidNetworkIntegrationTest" />
+      <option name="METHOD_NAME" value="create_new_gov_contract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidNetworkIntegrationTest.initializeContainers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bid.client.blockchain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bid.client.blockchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bid.client.blockchain" />
+      <option name="MAIN_CLASS_NAME" value="bid.client.blockchain.BidNetworkIntegrationTest" />
+      <option name="METHOD_NAME" value="initializeContainers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidNetworkIntegrationTest.query_bid_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bid.client.blockchain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bid.client.blockchain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bid.client.blockchain" />
+      <option name="MAIN_CLASS_NAME" value="bid.client.blockchain.BidNetworkIntegrationTest" />
+      <option name="METHOD_NAME" value="query_bid_contract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BidNetworkIntegrationTest.change_state_of_the_contract_close_for_bid" />
+      <item itemvalue="JUnit.BidNetworkIntegrationTest.allocate_contract" />
+      <item itemvalue="JUnit.BidNetworkIntegrationTest.query_bid_contract" />
+      <item itemvalue="JUnit.BidNetworkIntegrationTest.initializeContainers" />
+      <item itemvalue="JUnit.BidNetworkIntegrationTest.create_new_gov_contract" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BidNetworkIntegrationTest.create_new_gov_contract" />
+        <item itemvalue="JUnit.BidNetworkIntegrationTest.initializeContainers" />
+        <item itemvalue="JUnit.BidNetworkIntegrationTest.query_bid_contract" />
+        <item itemvalue="JUnit.BidNetworkIntegrationTest.allocate_contract" />
+        <item itemvalue="JUnit.BidNetworkIntegrationTest.change_state_of_the_contract_close_for_bid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e49d971e-f165-41fb-92ce-01b02a0b145f" name="Default Changelist" comment="" />
+      <created>1557164476414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557164476414</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BidNetworkIntegrationTest_initializeContainers - 2019.05.18 at 11h 03m 58s.xml">
+      <configuration name="BidNetworkIntegrationTest.initializeContainers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_create_new_gov_contract - 2019.05.18 at 11h 06m 18s.xml">
+      <configuration name="BidNetworkIntegrationTest.create_new_gov_contract" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_query_bid_contract - 2019.05.18 at 11h 07m 58s.xml">
+      <configuration name="BidNetworkIntegrationTest.query_bid_contract" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_change_state_of_the_contract_open_for_bid - 2019.05.18 at 11h 08m 20s.xml">
+      <configuration name="BidNetworkIntegrationTest.change_state_of_the_contract_open_for_bid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_test_add_bid_from_Contractor_1 - 2019.05.18 at 11h 08m 43s.xml">
+      <configuration name="BidNetworkIntegrationTest.test_add_bid_from_Contractor_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_test_add_bid_from_Contractor_2 - 2019.05.18 at 11h 09m 02s.xml">
+      <configuration name="BidNetworkIntegrationTest.test_add_bid_from_Contractor_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_change_state_of_the_contract_close_for_bid - 2019.05.18 at 11h 09m 21s.xml">
+      <configuration name="BidNetworkIntegrationTest.change_state_of_the_contract_close_for_bid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_allocate_contract - 2019.05.18 at 11h 09m 40s.xml">
+      <configuration name="BidNetworkIntegrationTest.allocate_contract" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_query_bid_contract - 2019.05.18 at 11h 10m 23s.xml">
+      <configuration name="BidNetworkIntegrationTest.query_bid_contract" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BidNetworkIntegrationTest_initializeContainers - 2019.05.18 at 11h 42m 51s.xml">
+      <configuration name="BidNetworkIntegrationTest.initializeContainers" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5960912" visible="true" weight="0.26735833" />
+      <window_info id="Structure" order="1" sideWeight="0.4039088" side_tool="true" weight="0.27134877" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50162864" side_tool="true" weight="0.26656026" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.63577235" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.73495936" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3284553" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((java.util.ArrayList)resps).get(0)" custom="java.util.ArrayList" />
+        <watch expression="((ProposalResponse)((java.util.ArrayList)resps).get(2)).proposalResponse" custom="org.hyperledger.fabric.sdk.ProposalResponse,java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>proposalResponse.isInvalid()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>459015e5c990</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proposalResponse.getProposalResponse().getResponse()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>proposalResponse.getPeer()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1892" column="13" selection-start-line="1892" selection-start-column="13" selection-end-line="1892" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hyperledger/fabric-sdk-java/fabric-sdk-java/1.4.1/fabric-sdk-java-1.4.1.jar!/org/hyperledger/fabric/sdk/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="2649" column="46" selection-start-line="2649" selection-start-column="11" selection-end-line="2649" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bid/client/blockchain/TestAppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/Participant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/BidNetWorkHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="84" column="50" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bid/client/blockchain/ProposalResponseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simplelogger.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bid/client/blockchain/BidNetworkIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+[      {
+		"name": "contractor1_bid_collection",
+		"policy": "OR('Contractor1MSP.member', 'RegulatorMSP.member', 'GovMSP.member')",
+		"requiredPeerCount": 2,
+		"maxPeerCount": 3,
+		"blockToLive": 1000000
+
+	},
+	{
+		"name": "contractor2_bid_collection",
+		"policy": "OR('Contractor2MSP.member', 'RegulatorMSP.member', 'GovMSP.member')",
+		"requiredPeerCount": 2,
+		"maxPeerCount": 3,
+		"blockToLive": 1000000		
+	}
+
+
+]
