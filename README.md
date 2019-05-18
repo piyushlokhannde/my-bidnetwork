@@ -42,3 +42,12 @@ Following are the stages in the contract lifcycle deployed in blockchain. All th
 
 # Testing and Running the Application
 
+Following are the steps to run the bidnetwork application.
+
+Basic setup is required to run this hyperledger application. The basic setup and can implemented using follwing link.
+
+https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html 
+
+1) 
+
+
