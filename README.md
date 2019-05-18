@@ -25,7 +25,7 @@ All the bidding events will be captured on the blockchain with consensus mechani
 
 To implement the bidding process on blockchain, we can convert contract to be bid as entity and deploy it on blockchain. Then we can tack the lifestyle of the contract in transparent non correctable way. In each stage of the contract lifecycle, smart contract can perform the different action. Following contract lifecycle is implemented for this POC
 
-# Smart Contract Lifcycle:
+# Smart Contract Lifecycle:
 
 ![alt text](images/contract_lifecycle.jpg)
 
