@@ -56,7 +56,7 @@ Move to the root folder my-bidnetwork and execute the following steps.
 
     **./generateartifact.sh**
     
-    After the execution of the above statements follwing files are created.
+    After the execution of the above statement follwing files are created.
     
      channel-artifacts<br />
       - channel.tx <br />
@@ -75,7 +75,8 @@ Move to the root folder my-bidnetwork and execute the following steps.
        -- regulator.example.com<br />
                                  
 
+2) Start the bid network .
 
-
+     **./start.sh**
 
 
