@@ -12,6 +12,10 @@ Hyperledger framework allows
 I have used above characteristics of the hyperledger to implement the this POC.
 
 
-# Use Case Scenario Overview
+# Use Case Scenario Overview: bidding for goverment contract
 
 ![alt text](images/organization.jpg)
+
+This use case shows how bidding process for government contracct can be implmented using blockchain. In this use cases we have four organization which are participating in the bid network each on of having its specific roles.
+
+1) GOV: 
