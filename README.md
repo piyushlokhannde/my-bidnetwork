@@ -54,7 +54,7 @@ Move to the root folder my-bidnetwork and execute the following steps.
 
 1) Generate the crypto material for all the participants using following command.
 
-                                 *./generateartifact.sh*
+** ./generateartifact.sh
                                  
 
 
