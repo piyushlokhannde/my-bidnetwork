@@ -12,7 +12,7 @@ Hyperledger framework allows
 I have used above characteristics of the hyperledger to implement the this POC.
 
 
-# Use Case Scenario Overview: bidding for goverment contract
+# Use Case Scenario Overview: Bidding for Goverment Contract
 
 ![alt text](images/organization.jpg)
 
@@ -23,6 +23,9 @@ This use case shows how bidding process for government contract can be implement
 3) Contractor1,Contractor2: These participants will bid for the government contract added by the GOV.
 All the bidding events will be captured on the blockchain with consensus mechanism so that information will be trusted by each participants. Details of the whole process is as follows.
 
+To implement the bidding process on blockchain, we can convert contract to be bid as entity and deploy it on blockchain. Then we can tack the lifestyle of the contract in transparent non correctable way. In each stage of the contract lifecycle, smart contract can perform the different action. Following contract lifecycle is implemented for this POC
+
+# Smart Contract Lifcycle:
 
 ![alt text](images/contract_lifecycle.jpg)
 
