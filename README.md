@@ -23,9 +23,16 @@ This use case shows how bidding process for government contract can be implement
 3) Contractor1,Contractor2: These participants will bid for the government contract added by the GOV.
 All the bidding events will be captured on the blockchain with consensus mechanism so that information will be trusted by each participants. Details of the whole process is as follows.
 
-To implement the bidding process on blockchain, we can convert contract to be bid as entity and deploy it on blockchain. Then we can tack the lifestyle of the contract in transparent non correctable way. In each stage of the contract lifecycle, smart contract can perform the different action. Following contract lifecycle is implemented for this POC
+To implement the bidding process on blockchain, we can convert contract to be bid as entity and deploy it on blockchain. Then we can tack the lifestyle of the contract in transparent non correctable way. In each stage of the contract lifecycle, smart contract(chaincode) can perform the different action. Following contract lifecycle is implemented for this POC
 
-# Smart Contract Lifecycle:
+# Contract Lifecycle:
+
+Following are the stages in the contract lifcycle deployed in blockchain.
+
+1) NEW: This is the state when new contract is created by the GOV organization. This is the initial stage of contract and can be used to propagate the information to the different contractor about the contract details. Initiater for this stage is GOV
+2) OPEN_FOR_BID: After the initial cooling period, the contract is open for bid. At this stage different contractors are can bid for the contract. Chaincode will validate the incoming bid and either accept/reject bid based on buisness validation implmented. Initiater for this stage is REGULATOR.
+
+
 
 ![alt text](images/contract_lifecycle.jpg)
 
