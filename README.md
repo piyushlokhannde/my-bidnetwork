@@ -54,7 +54,25 @@ Move to the root folder my-bidnetwork and execute the following steps.
 
 1) Generate the crypto material for all the participants using following command.
 
-**./generateartifact.sh
+    **./generateartifact.sh**
+    
+    After the execution of the above statements follwing files are created.
+    
+    - channel-artifacts
+      -- channel.tx
+      -- Contractor1MSPanchors.tx
+      -- Contractor2MSPanchors.tx
+      -- genesis.block
+      -- GovMSPanchors.tx
+      -- RegulatorMSPanchors.tx
+      
+    - crypto-config
+      -- ordererOrganizations
+      -- peerOrganizations
+         -- contractor1.example.com
+         -- contractor2.example.com
+         -- gov.example.com
+         -- regulator.example.com
                                  
 
 
