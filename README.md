@@ -78,5 +78,7 @@ Move to the root folder my-bidnetwork and execute the following steps.
 2) Start the bid network .
 
      **./start.sh**
-
+    After the successfull execution of above script. The following container will be up. check using command **docker ps**
+    
+    ![alt text](images/docker_ps.png)
 
