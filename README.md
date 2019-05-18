@@ -27,10 +27,13 @@ To implement the bidding process on blockchain, we can convert contract to be bi
 
 # Contract Lifecycle:
 
-Following are the stages in the contract lifcycle deployed in blockchain.
+Following are the stages in the contract lifcycle deployed in blockchain. All the movement in the contract lifcycle is based on the business rules implemented chaincode.
 
 1) NEW: This is the state when new contract is created by the GOV organization. This is the initial stage of contract and can be used to propagate the information to the different contractor about the contract details. Initiater for this stage is GOV
-2) OPEN_FOR_BID: After the initial cooling period, the contract is open for bid. At this stage different contractors are can bid for the contract. Chaincode will validate the incoming bid and either accept/reject bid based on buisness validation implmented. Initiater for this stage is REGULATOR.
+2) OPEN_FOR_BID: After the initial cooling period, the contract is open for bid. At this stage different contractors are can bid for the contract.  Chaincode will validate the incoming bid and either accept/reject bid based on business validation implemented. Initiater for this stage is REGULATOR.
+3) CLOSE_FOR_BID: At this stage the contract is closed for bidding, no new bid will be accepted. Initiater for this stage is REGULATOR. 
+4) Assign: At this stage contract is assigned to the highest bidder. If their are bids present for the contracts then highest bidder is selected and assigned the contract, if non of the bid is present then contract will move BID_FAIL stage.
+
 
 
 
