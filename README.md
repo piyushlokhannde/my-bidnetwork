@@ -18,4 +18,10 @@ I have used above characteristics of the hyperledger to implement the this POC.
 
 This use case shows how bidding process for government contracct can be implmented using blockchain. In this use cases we have four organization which are participating in the bid network each on of having its specific roles.
 
-1) GOV: 
+1) GOV: GOV will add the contract in the blockchain having the inforamtion as contractID, bidStartDate, bidEndDate, description, minimumBid. Forthis contract GOV is seeking highest bidder.
+2) REGULATOR: This participant will act as regulator for bidding process. All the newly created blocks will be distributed from this node.
+3) Contractor1,Contractor2: These participants will bid for the government contract added by the GOV.
+
+All the bidding events will be captured on the blockchain with consensus mechanism so that information will be trusted by each participants. Details of the whole process is as follows.
+
+
