@@ -10,3 +10,6 @@ Hyperledger framework allows
 3) It allows sharing of private data between two nodes allowing confidentiality between the two organization.
 
 I have used above characteristics of the hyperledger to implement the this POC.
+
+
+![alt text](images/organization.jpg)
