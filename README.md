@@ -24,3 +24,8 @@ This use case shows how bidding process for government contract can be implement
 All the bidding events will be captured on the blockchain with consensus mechanism so that information will be trusted by each participants. Details of the whole process is as follows.
 
 
+![alt text](images/contract_lifecycle.jpg)
+
+
+
+
