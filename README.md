@@ -111,6 +111,8 @@ Run the following methods from the class [BidNetworkIntegrationTest](bidclientbl
 
 # Application Architecture
 
+![alt text](images/architecture_2.jpg)
+
 Application Architecture has the folloiwng three main component:
 
 - **Fabrc Bid Network**
