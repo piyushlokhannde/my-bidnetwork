@@ -129,6 +129,8 @@ Following componets are required to create Bid network.
 - [crypto-config.yaml](crypto-config.yaml) : This file is used by the file [generateartifact.sh](generateartifact.sh) to create the all the crypto material required for the network.
 - [configtx.yaml](configtx.yaml) : This file will be used by the file [generateartifact.sh](generateartifact.sh) to create all the initial blocks(genesis,channel, achor peer) to start the network.
 - [docker-compose-cli.yaml](docker-compose-cli.yaml) : This file is used by the [start.sh](start.sh) to start the docker containers for each participants. File docker-compose-cli.yaml uses the [peer-base.yaml](base/peer-base.yaml) and [docker-compose-base.yaml](base/docker-compose-base.yaml) to build container network.
+- [generateartifact.sh](generateartifact.sh) : This script creates all the crytpto material required for the network.
+- [start.sh](start.sh): This script starts all the containers, create new channel, join all peers to channel, update achor peers, install and instantiate chaincode on each peer.
 
 Some of the features of bid newtowrk
 - For each participant only one node is created which is also acting as achor peer.<br/>
