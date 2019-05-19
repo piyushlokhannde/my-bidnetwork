@@ -82,3 +82,27 @@ Move to the root folder my-bidnetwork and execute the following steps.
     
     ![alt text](images/docker_ps.png)
 
+
+3) Running the integration tests.
+
+Now you can run the integration test, which will run happy flow creating, bidding and assigning the contract.
+
+Run the following methods from the class [BidNetworkIntegrationTest](bidclientblockchain/src/test/java/bid/client/blockchain/BidNetworkIntegrationTest.java)
+
+| Test | Description |Expected Result|Block Number Added|
+| --- | --- | --- | --- |
+| initializeContainers | This test initialize all the chaincode containers of all participants |  No Response |No Block|
+| create_new_gov_contract| This test will create the new contract on blockchain.|message: "Created Contract Successfully" from all 4 peers|Block No- 7|
+|query_bid_contract|query blockchain to fetch the contract data|message: "Contract present in the ledger"|No Block|
+|change_state_of_the_contract_open_for_bid|change the state OPEN_FOR_BID| "Contract: PWD-12-9024 is moved to the state :OPEN_FOR_BID" |Block No- 8|
+|test_add_bid_from_Contractor_1|add bid for contractor1|message: "Bid added for the Contract with idPWD-12-9024"|Block No- 9|
+|test_add_bid_from_Contractor_2|add bid for contractor2|message: "Bid added for the Contract with idPWD-12-9024"|Block No- 10|
+|change_state_of_the_contract_close_for_bid|changes the state CLOSE_FOR_BID|message: "Contract: PWD-12-9024 is moved to the state :CLOSE_FOR_BID"|Block No- 11|
+|allocate_contract|allocate contract process|message: "Contract: PWD-12-9024 is moved to the state :ASSIGNED"|Block No- 12|
+
+
+**Initial state of the contract on first test:create_new_gov_contract: BLOCK-7**<br/>
+ "{\"contractID\":\"PWD-12-9024\",\"bidStartDate\":\"01/10/2019\",\"bidEndDate\":\"01/11/2019\",\"description\":\"PWD contract\",\"state\":\"NEW\",\"minimumBid\":\"500\",\"bidCount\":0}"
+ 
+**State of the contract after last test: allocate_contract: BLOCK-11**<br/>
+"{\"contractID\":\"PWD-12-9024\",\"bidStartDate\":\"01/10/2019\",\"bidEndDate\":\"01/11/2019\",\"description\":\"PWD contract\",\"state\":\"ASSIGNED\",\"minimumBid\":\"500\",\"bidCount\":2,\"contractor\":\"contractor1\",\"assignedDate\":\"2019-05-18\"}"
