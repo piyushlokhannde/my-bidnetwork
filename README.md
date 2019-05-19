@@ -106,3 +106,13 @@ Run the following methods from the class [BidNetworkIntegrationTest](bidclientbl
  
 **State of the contract after last test: allocate_contract: BLOCK-11**<br/>
 "{\"contractID\":\"PWD-12-9024\",\"bidStartDate\":\"01/10/2019\",\"bidEndDate\":\"01/11/2019\",\"description\":\"PWD contract\",\"state\":\"ASSIGNED\",\"minimumBid\":\"500\",\"bidCount\":2,\"contractor\":\"contractor1\",\"assignedDate\":\"2019-05-18\"}"
+
+# Application Architecture
+
+Application Architecture has the folloiwng three main component:
+
+- **fabrc Bid Network**
+- **fabric Chaincode**
+- **fabric java client**
+
+
