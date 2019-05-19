@@ -107,6 +107,8 @@ Run the following methods from the class [BidNetworkIntegrationTest](bidclientbl
 **State of the contract after last test: allocate_contract: BLOCK-11**<br/>
 "{\"contractID\":\"PWD-12-9024\",\"bidStartDate\":\"01/10/2019\",\"bidEndDate\":\"01/11/2019\",\"description\":\"PWD contract\",\"state\":\"ASSIGNED\",\"minimumBid\":\"500\",\"bidCount\":2,\"contractor\":\"contractor1\",\"assignedDate\":\"2019-05-18\"}"
 
+4) Stop the netowrk: Network is stopped using script [./stop.sh](stop.sh), this script will bring down all the containers and remove all the docker volume. Very important step before starting the network next time
+
 # Application Architecture
 
 Application Architecture has the folloiwng three main component:
@@ -123,5 +125,10 @@ Following componets are required to create Bid network.
 - [configtx.yaml](configtx.yaml) : This file will be used by the file [generateartifact.sh](generateartifact.sh) to create all the initial blocks(genesis,channel, achor peer) to start the network.
 - [docker-compose-cli.yaml](docker-compose-cli.yaml) : This file is used by the [start.sh](start.sh) to start the docker containers for each participants. File docker-compose-cli.yaml uses the [peer-base.yaml](base/peer-base.yaml) and [docker-compose-base.yaml](base/docker-compose-base.yaml) to build container network.
 
+Some of the features of bid newtowrk
+- For each participant only one node is created which is also acting as achor peer.<br/>
+- Network is not using any CA servers.<br/>
+- Network is operating withou tls.<br/>
+- Network uses the solo orderer
 
 
