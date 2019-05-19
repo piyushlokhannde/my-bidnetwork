@@ -111,7 +111,7 @@ Run the following methods from the class [BidNetworkIntegrationTest](bidclientbl
 
 # Application Architecture
 
-![alt text](images/architecture_2.jpg)
+
 
 Application Architecture has the folloiwng three main component:
 
@@ -120,6 +120,9 @@ Application Architecture has the folloiwng three main component:
 - **Fabric java client**
 
 ## Fabric Bid Network
+
+![alt text](images/architecture_2.jpg)
+
 
 Following componets are required to create Bid network.
 
