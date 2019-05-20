@@ -145,7 +145,7 @@ Chaincode for this POC is created in java. This chaincode used the blockchain as
 
 Contract data is stored in on blockchain but the bid data is not shared with every body. Contractor shares the bid data only with the GOV and REGULATOR only.
 
-
+![alt text](images/chaincode.jpg)
 
 
 
