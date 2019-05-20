@@ -139,4 +139,17 @@ Some of the features of bid newtowrk
 - Network is operating withou tls.<br/>
 - Network uses the solo orderer
 
+## Fabric Chaincode
+
+Chaincode for this POC is created in java. This chaincode used the blockchain as well as private data feature of hyperledger.
+
+Contract data is stored in on blockchain but the bid data is not shared with every body. Contractor shares the bid data only with the GOV and REGULATOR only.
+
+
+
+
+
+
+
+
 
