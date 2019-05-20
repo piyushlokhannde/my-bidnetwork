@@ -147,6 +147,13 @@ Contract data is stored in on blockchain but the bid data is not shared with eve
 
 ![alt text](images/chaincode.jpg)
 
+- [ContractChainCode.java](chaincode/bidcontractchaincode/src/main/java/com/bid/chaincode/ContractChainCode.java) : This class acts as controller for the chaincode. It accepts the reqeust from peer node, extract the parameter from the request and forward the request to appropreate service method. It also validate the request and send the correct response back to calling peer.
+- [BidService.java](chaincode/bidcontractchaincode/src/main/java/com/bid/service/BidService.java) : This class aggreates the componets like core classes and dao layer. It coordiantes the reuslt from core application, controller and dao layer
+- [Contract.java](chaincode/bidcontractchaincode/src/main/java/com/bid/contract/Contract.java) : This is a core application, which implments the buisness rules. It is independent of any underlying framework used to implment the use case.
+- [ChaincodeDao.java](chaincode/bidcontractchaincode/src/main/java/com/bid/chaincode/dao/ChaincodeDao.java): This class is used for fetching the data from blockchain and pfrom private database
+
+
+
 
 
 
