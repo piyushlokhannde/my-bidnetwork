@@ -160,8 +160,11 @@ Contract data is stored in on blockchain but the bid data is not shared with eve
 ![alt text](images/client_sequence.jpg)
 
 
-
-
+# Future Improvments:
+- Implement tls in the network.
+- Deploy the network on cloud multi host network.
+- Improve the consensus mechanism.
+- Implment the client based identity while verifying the request.
 
 
 
