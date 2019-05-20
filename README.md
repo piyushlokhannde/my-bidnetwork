@@ -139,7 +139,7 @@ Some of the features of bid newtowrk
 - Network is operating withou tls.<br/>
 - Network uses the solo orderer
 
-## Fabric Chaincode
+## Fabric Chaincode: [chaincode](chaincode)
 
 Chaincode for this POC is created in java. This chaincode used the blockchain as well as private data feature of hyperledger.
 
@@ -152,6 +152,8 @@ Contract data is stored in on blockchain but the bid data is not shared with eve
 - [Contract.java](chaincode/bidcontractchaincode/src/main/java/com/bid/contract/Contract.java) : This is a core application, which implments the buisness rules. It is independent of any underlying framework used to implment the use case.
 - [ChaincodeDao.java](chaincode/bidcontractchaincode/src/main/java/com/bid/chaincode/dao/ChaincodeDao.java): This class is used for fetching the data from blockchain and pfrom private database
 
+
+## Fabric Java Client: [bidclientblockchain](bidclientblockchain)
 
 
 
