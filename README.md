@@ -157,6 +157,7 @@ Contract data is stored in on blockchain but the bid data is not shared with eve
 
 [BidNetworkIntegrationTest.java](bidclientblockchain/src/test/java/bid/client/blockchain/BidNetworkIntegrationTest.java) : This class runs the integration test for the application. Follwoing sequence diagram describe the flow of events.
 
+![alt text](images/client_sequence.jpg)
 
 
 
